@@ -17,4 +17,4 @@ for command in commands:
     except subprocess.CalledProcessError as e:
         print(f"Command failed with error {e.returncode}.")
 
-print("You should now be able to start up Kleopatra and encrypt/sign/decrypt/verify along with recognise the YubiKey as a smart-card.")
+print("You should now be able to start up Kleopatra and encrypt/sign/decrypt/verify and recognise the YubiKey as a smart-card.")
