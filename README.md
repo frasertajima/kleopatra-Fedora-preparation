@@ -10,3 +10,6 @@ At the command line “python kleopatra.py” will now do all the prep to enable
 -restarts the pcscd service so the YubiKey is recognised in Fedora Silverblue (I needed to authenticate via fingerprint);
 -decrypts a test file (I encrypted a pdf file so the decrypted file is named test.pdf–you will need to adjust the file type to suit your test file type) during which a popup will ask for the YubiKey PIN; and
 -encrypts by echo test during which the YubiKey PIN will be asked again.
+
+
+Blog post: https://felixquinihildebet.wordpress.com/2024/02/01/kleopatra-for-fedora-silverblue-one-solution/
