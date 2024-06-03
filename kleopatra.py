@@ -5,8 +5,10 @@ import subprocess
 commands = [
     'systemctl restart pcscd',
     'gpg --card-status',
-    'gpg --output test.pdf --decrypt test.gpg',         # the file type will depend on 
-                                                        # what test file you encrypted
+    'gpg --batch --yes --output test.pdf --decrypt test.gpg',         # the file type will depend on 
+                                                                      # what test file you encrypted
+                                                                      # added '--batch --yes' to automatically
+                                                                      # overwrite file without prompting
     'echo "test" | gpg --clearsign'
 ]
 
